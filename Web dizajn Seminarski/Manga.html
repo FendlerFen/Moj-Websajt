@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Manga, Programer, Web Dizajner, Pisac Članova, Pocetna Strana">
+  <meta name="description" content="FenCo je kreativni tim koji se bavi mangom, dizajnom i razvojem. Upoznajte naš tim i projekte.">
+  <meta name="author" content="FenCo">
+
+  <meta property="og:title" content="FenCo - Kreativni Web Tim">
+  <meta property="og:description" content="Pridruži se našem timu dizajnera, programera i manga entuzijasta.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://FenCo.com">
+  <meta property="og:image" content="Slike/Sprites/ImeSajta.png">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FenCo - Manga</title>
+
+  <link rel="shortcut icon" type="FenCo" href="Slike/Sprites/logo.png">
+  <link rel="stylesheet" href="CSS/Manga.css">
+  <link rel="stylesheet" href="CSS/Meni.css">
+  <script src="Java/java.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <section class="GlavniMeni">
+    <label for="meni-dugme" class="btn meni-dugme">
+      <span class="linija"></span>
+      <span class="linija"></span>
+      <span class="linija"></span>
+    </label>
+    <div class="ImeSajta">
+      <a href="#">FenCo</a>
+      <img class="Menilogo" src="Slike/Sprites/logo.png" alt="Logo Sajta">
+    </div>
+    <input type="radio" name="slide" id="meni-dugme">
+    <input type="radio" name="slide" id="smanji-dugme">
+    <ul class="nav-linkovi">
+    <label for="smanji-dugme" class="btn smanji-dugme">X</label>
+    <li><a href="Pocetna.html">Pocetna</a></li>
+    </li>
+    <li><a href="o-nama.html">O nama</a></li>
+    <li>
+    <li>
+      <a class="NaRacunaru">Popularno&#x25BE;</a>
+      <input type="checkbox" id="PokaziDropBox">
+      <label for="PokaziDropBox" class="NaTelefonu">Popularno&#x25BE;</label>
+      <ul class="drop-meni">
+        <li><a href="#">Drop 1</a></li>
+        <li><a href="#">Drop 2</a></li>
+        <li><a href="#">Drop 3</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="Manga.html" class="NaRacunaru">Manga&#x25BE;</a>
+      <input type="checkbox" id="PokaziMegaMani">
+      <label for="PokaziMegaMani" class="NaTelefonu">Manga&#x25BE;</label>
+      <div class="MegaMeni">
+        <div class="sadrzaj">
+          <div class="red">
+            <img src="Slike/Sprites/slika-meni.png" alt="slika-meni">
+          </div>
+          <div class="red">
+            <header>Drama</header>
+            <ul class="mega-linkovi">
+              <li><a href="Manga html/clannad.html">Clannad</a></li>
+              <li><a href="Manga html/angel-beats.html">Angel Beats</a></li>
+              <li><a href="Manga html/gosick.html">GoSick</a></li>
+            </ul>
+          </div>
+
+          <div class="red">
+            <header>Misterija</header>
+            <ul class="mega-linkovi">
+              <li><a href="Manga html/death-note.html">Death Note</a></li>
+              <li><a href="Manga html/dandadan.html">DanDaDan</a></li>
+              <li><a href="Manga html/princessprincipal.html">Princess Principal</a></li>
+            </ul>
+          </div>
+
+          <div class="red">
+            <header>Akcija</header>
+            <ul class="mega-linkovi">
+              <li><a href="Manga html/zom100.html">Zomb 100</a></li>
+              <li><a href="Manga html/darkerthanblack.html">Darker Than Black</a></li>
+              <li><a href="Manga html/psycho-pass.html">Psycho-Pass</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li><a href="Forma.html">Forma</a></li>
+    <li>
+      <button id="Tema-dugme" class="Tema-dugme">
+        <img src="Slike/Sprites/tamni.png" alt="Mesec">
+        <img src="Slike/Sprites/svetli.png" alt="Sunce">
+      </button>
+    </li>
+  </ul>
+  </section>
+</nav>
+
+<section class="PozadinaSlajder">
+  <div class="SlajdKontejner">
+
+    <div class="Slajd trenutniSlajd">
+      <a href="Manga html/clannad.html" class="LinkSlajd">
+        <div class="SadrzajSlajdera">
+          <div class="SlajderSlika">
+          <img src="Slike/Manga Slike/Clannad.jpg" alt="Clannad" />
+        </div>
+        <div class="SlajderTekst">
+          <div class="SlajderNaslov">
+            <h2>Popularni Naslov</h2>
+            <h1><span class="highlight">Clannad</span></h1>
+          </div>
+          <div class="SlajderDeskripcija">
+            <div class="Zanrovi">
+              <span>Drama</span>
+              <span>Romansa</span>
+            </div>
+            <p>Tomoja Okazaki je delikvent koji smatra da je život dosadan i veruje da nikada neće postići ništa. Zajedno sa svojim prijateljem Iouhei Sunoharom, on preskače školu i planira da protraći svoje srednjoškolske dane.</p>
+            <p><br>Jednog dana dok hoda do škole, Tomoja prolazi pored mlade devojke koja tiho mrmlja za sebe. Ona bez upozorenja uzvikuje "Anpan!" (popularna japanska hrana) koja privlači Tomojinu pažnju. Ubrzo otkriva da se devojka zove Nagisa Furukava i da ona uzvikuje stvari koje voli kako bi se motivisala. Nagisa tvrdi da su sada prijatelji, ali Tomoja odlazi i taj susret propušta kao ništa.</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="Slajd">
+    <a href="Manga html/death-note.html" class="LinkSlajd">
+      <div class="SadrzajSlajdera">
+        <div class="SlajderSlika">
+          <img src="Slike/Manga Slike/DeathNote.jpg" alt="DeathNote" />
+        </div>
+        <div class="SlajderTekst">
+          <div class="SlajderNaslov">
+            <h2>Popularni Naslov</h2>
+            <h1><span class="highlight">DeathNote</span></h1>
+          </div>
+          <div class="SlajderDeskripcija">
+            <div class="Zanrovi">
+              <span>Misterija</span>
+              <span>Neizvesnost</span>
+            </div>
+            <p>Brutalna ubistva, sitne krađe i besmisleno nasilje zagađuju ljudski svet. Nasuprot tome, carstvo bogova smrti je glupa, nepromenljiva jazbina za kockanje. Genijalni 17-godišnji japanski student Lajt Jagami i sadistički bog smrti Rjuk dele jedno uverenje: njihovi svetovi su truli.</p>
+            <p><br>Radi sopstvene zabave, Rjuk ispušta svoj Death Note u ljudski svet. Svetlost nailazi na njega, smatrajući prvo od njegovih pravila smešnim: čovek čije je ime napisano u ovoj belešci će umreti. Međutim, iskušenje je preveliko, a Lajt eksperimentiše pisanjem imena prestupnika, što uznemirujuće odigrava njegovo prvo ubistvo.</p>
+            <p><br>Svestan zastrašujuće božanske moći koja je pala u njegove ruke, Svetlost — pod pseudonimom Kira — sledi svoj opaki osećaj za pravdu sa krajnjim ciljem da očisti svet od svih zlikovaca. Pedantni detektiv L već mu je na tragu, ali kako se Lajtov sjaj takmiči sa L, velika potera za Kirom pretvara se u intenzivnu bitku duhova koja može da se završi samo kada jedan od njih bude mrtav.</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="Slajd">
+    <a href="Manga html/angel-beats.html" class="LinkSlajd">
+      <div class="SadrzajSlajdera">
+        <div class="SlajderSlika">
+          <img src="Slike/Manga Slike/Angel Beats.jpg" alt="Angel Beats" />
+        </div>
+        <div class="SlajderTekst">
+          <div class="SlajderNaslov">
+            <h2>Istaknuta Manga</h2>
+            <h1><span class="highlight">Angel Beats</span></h1>
+          </div>
+          <div class="SlajderDeskripcija">
+            <div class="Zanrovi">
+              <span>Drama</span>
+              <span>Fantazija</span>
+            </div>
+            <p>Smrt je jedna od mnogih misterija koje su ostavile čovečanstvo u mraku od zore vremena. Međutim, na goruće pitanje šta se dešava sa dušom nakon smrti ubrzo dobija odgovor 17-godišnji Juzuru Otonaši. Budeći se bez prethodnih uspomena u dimenziji između života i smrti, otkriva uznemirujuću istinu zagrobnog života.</p>
+            <p><br>Uzimajući oblik srednje škole, ova bizarna dimenzija je namenjena da skloni one koji su umrli neželjenom smrću. Osećajući se da ih Bog nepravedi tokom svog zemaljskog života, stanovnici škole su odlučili da formiraju Zagrobni rat — pobunjeničku frakciju rešenu da se suprotstave njihovom božanstvenom predsedniku đačkog saveta, Kanadeu „Anđelu“ Tačibani. Vođa grupe, Jurij Nakamura, regrutuje Otonašija u njihovoj borbi protiv Anđela kako bi preuzeo kontrolu nad sopstvenim životima. Međutim, dovodeći u pitanje moral koji stoji iza njihovih postupaka, Otonaši pravi korak iza neprijateljskih linija da bi razumeo suprotnu stranu njihove zajedničke sudbine.</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="Slajd">
+    <a href="Manga html/gosick.html" class="LinkSlajd">
+      <div class="SadrzajSlajdera">
+        <div class="SlajderSlika">
+          <img src="Slike/Manga Slike/GoSick.jpg" alt="GoSick" />
+        </div>
+        <div class="SlajderTekst">
+          <div class="SlajderNaslov">
+            <h2>Morate Da Čitate</h2>
+            <h1><span class="highlight">GoSick</span></h1>
+          </div>
+          <div class="SlajderDeskripcija">
+            <div class="Zanrovi">
+              <span>Drama</span>
+              <span>Misterija</span>
+              <span>Romansa</span>
+            </div>
+            <p>Kazuia Kujou je strani student na Saint Marguerite Academi, luksuznom internatu u južnoevropskoj zemlji Sovil. Poreklom iz Japana, njegova crna kosa i tamnosmeđe oči uzrokuju da ga vršnjaci izbegavaju i daju mu nadimak „Crni žetelac“, zasnovan na popularnoj urbanoj legendi o putniku koji donosi smrt u proleće.</p>
+            <p><br>Na dan kao i svaki drugi, Kujou posećuje ekstravagantnu biblioteku škole u potrazi za pričama o duhovima. Međutim, njegov fokus se ubrzo menja jer postaje radoznao za zlatni pramen kose na stepenicama. Stepenice ga vode do velike bašte i prelepe devojčice nalik lutki poznate kao Viktorik de Bloa, čija joj složena i maštovita predviđanja omogućavaju da predvidi njihovu budućnost, sada isprepletenu.</p>
+            <p><br>Sa sve više misterija koje se brzo razvijaju — uključujući pojavu broda duhova i alhemičara sa moći transmutacije — Viktorik i Kudžu, vezani sudbinom i svojim jedinstvenim veštinama, nemaju drugog izbora nego da se oslone jedno na drugo.</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="Slajd">
+    <a href="Manga html/psycho-pass.html" class="LinkSlajd">
+      <div class="SadrzajSlajdera">
+        <div class="SlajderSlika">
+          <img src="Slike/Manga Slike/Psycho-Pass.jpg" alt="PsychoPass" />
+        </div>
+        <div class="SlajderTekst">
+          <div class="SlajderNaslov">
+            <h2>Hit</h2>
+            <h1><span class="highlight">Psycho-Pass</span></h1>
+          </div>
+          <div class="SlajderDeskripcija">
+            <div class="Zanrovi">
+              <span>Akcija</span>
+              <span>Misterija</span>
+              <span>Sci-Fi</span>
+            </div>
+            <p>Pravda i njena primena su se promenili. U 22. veku, Japan primenjuje Sibil sistem, objektivno sredstvo za određivanje nivoa pretnje svakog građanina ispitivanjem njegovog mentalnog stanja u potrazi za znakom zločinačke namere, poznatom kao njihov psiho-pas. Inspektori se pridržavaju zakona tako što potčinjavaju, često smrtonosnom silom, svakoga ko gaji i najmanju zlu volju; pored njih su Enforceri, umorni inspektori koji su postali latentni kriminalci, kojima je data relativna sloboda u zamenu za obavljanje prljavog posla inspektora.</p>
+            <p><br>U ovaj svet stupa Akane Cunemori, mlada žena sa iskrenom željom da održi pravdu. Međutim, dok radi zajedno sa veteranom Enforer Shinia Kougami, ubrzo saznaje da presude Sibil sistema nisu tako savršene kao što pretpostavljaju njeni kolege inspektori. Pošto je sve što je znala okrenuto naopačke, Akane se bori sa pitanjem šta je pravda zaista i da li se ona može održati korišćenjem sistema koji je možda već korumpiran.</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <a class="LevoStrilica" onclick="promeniSlajd(-1)">&#10094;</a>
+  <a class="DesnoStrelica" onclick="promeniSlajd(1)">&#10095;</a>
+</div>
+</section>
+
+
+<section class="MangaMeni">
+  <h2>Mange</h2>
+  <div class="MangaTabela">
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/Clannad.jpg" alt="Clannad" loading="lazy">
+      <a href="Manga html/clannad.html">Clannad</a>
+    </div>
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/Angel Beats.jpg" alt="Angel Beats" loading="lazy">
+      <a href="Manga html/angel-beats.html">Angel Beats</a>
+    </div>
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/GoSick.jpg" alt="GoSick" loading="lazy">
+      <a href="Manga html/gosick.html">GoSick</a>
+    </div>
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/DeathNote.jpg" alt="DeathNote" loading="lazy">
+      <a href="Manga html/death-note.html">Death Note</a>
+    </div>
+
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/Zomb100.jpg" alt="Zomb100" loading="lazy">
+      <a href="Manga html/zom100.html">Zomb 100</a>
+    </div>
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/PrincessPrincipal.jpg" alt="PrincessPrincipal" loading="lazy">
+      <a href="Manga html/princessprincipal.html">Princess Principal</a>
+    </div>
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/DanDaDan.jpg" alt="DanDaDan" loading="lazy">
+      <a href="Manga html/dandadan.html">DanDaDan</a>
+    </div>
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/DarkerThanBlack.jpg" alt="DarkerThanBlack" loading="lazy">
+      <a href="Manga html/darkerthanblack.html">Darker Than Black</a>
+    </div>
+
+    <div class="MangaKartica">
+      <img src="Slike/Manga Slike/Psycho-Pass.jpg" alt="Psycho-Pass" loading="lazy">
+      <a href="Manga html/psycho-pass.html">Psycho-Pass</a>
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+
+<footer class="footer" role="contentinfo">
+  <p>&copy; 2025 FenCo. Sva prava zadržana.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|c:\\users\\administrator\\desktop\\razvoj vi\u0161eslojnog softvera\\primer\\1_slojpodataka\\klasepodataka\\klasepodataka\\klasepodataka\\spkorisnikdbklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\spkorisnikdbklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\klasepodataka\\izvanjeklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\izvanjeklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\klasepodataka\\izvanjelistaklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\izvanjelistaklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\klasepodataka\\inastavniklistaklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\inastavniklistaklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\klasepodataka\\inastavnikklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\inastavnikklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|c:\\users\\administrator\\desktop\\razvoj vi\u0161eslojnog softvera\\primer\\1_slojpodataka\\klasepodataka\\klasepodataka\\klasepodataka\\nastavnikdbklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\nastavnikdbklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\klasepodataka\\nastavnikklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\nastavnikklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\klasepodataka\\zvanjelistaklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\zvanjelistaklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\klasepodataka\\zvanjeklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\zvanjeklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\klasepodataka\\nastavniklistaklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0F4212-2425-4CA2-B575-4C7DE3B4EB03}|KlasePodataka\\KlasePodataka.csproj|solutionrelative:klasepodataka\\nastavniklistaklasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SPKorisnikDBKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\SPKorisnikDBKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\SPKorisnikDBKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\SPKorisnikDBKlasa.cs*",
+              "RelativeToolTip": "KlasePodataka\\SPKorisnikDBKlasa.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:03:08.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ZvanjeListaKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\ZvanjeListaKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\ZvanjeListaKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\ZvanjeListaKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\ZvanjeListaKlasa.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:38:56.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IZvanjeListaKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\IZvanjeListaKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\IZvanjeListaKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\IZvanjeListaKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\IZvanjeListaKlasa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:39:04.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IZvanjeKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\IZvanjeKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\IZvanjeKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\IZvanjeKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\IZvanjeKlasa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:35:59.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "INastavnikKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\INastavnikKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\INastavnikKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\INastavnikKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\INastavnikKlasa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:31:29.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "INastavnikListaKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\INastavnikListaKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\INastavnikListaKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\INastavnikListaKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\INastavnikListaKlasa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:20:33.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ZvanjeKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\ZvanjeKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\ZvanjeKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\ZvanjeKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\ZvanjeKlasa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:13:22.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NastavnikDBKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\NastavnikDBKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\NastavnikDBKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\NastavnikDBKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\NastavnikDBKlasa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T18:34:14.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NastavnikListaKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\NastavnikListaKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\NastavnikListaKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\NastavnikListaKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\NastavnikListaKlasa.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T18:33:57.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NastavnikKlasa.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\NastavnikKlasa.cs",
+              "RelativeDocumentMoniker": "KlasePodataka\\NastavnikKlasa.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Razvoj vi\u0161eslojnog softvera\\Primer\\1_SlojPodataka\\KlasePodataka\\KlasePodataka\\KlasePodataka\\NastavnikKlasa.cs",
+              "RelativeToolTip": "KlasePodataka\\NastavnikKlasa.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T18:03:18.319Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

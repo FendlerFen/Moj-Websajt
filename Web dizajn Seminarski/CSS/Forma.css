@@ -1,0 +1,138 @@
+:root {
+  --text-color: #ffffff;
+  --header-footer: #262626;
+  --hover-color: rgb(148, 148, 233);
+  --linija: #ffffff;
+  --Back-imagec: blue;
+  --img-text: white;
+  --dropdown: #3f3f3f;
+  --body: white;
+  --backround-color: white;
+  --Zaposlen-back: #f0f0f0;
+  --Zaposlen-border: #ddd;
+  --Zaposlen-text: #333;
+}
+
+.tamniMod {
+  --text-color: #9c8888;
+  --header-footer: #2d323a;
+  --header-tbor: #333333;
+  --hover-color: rgb(96, 113, 167);
+  --linija: #9c8888;
+  --Back-imagec: #062670;
+  --img-text: white;
+  --dropdown: #3f3f3f;
+  --body: #252525;
+  --backround-color: rgb(39, 39, 39);
+  --Zaposlen-back: #313131;
+  --Zaposlen-border: #3a3a3a;
+  --Zaposlen-text: #a1a1a1;
+}
+
+nav {
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+@font-face {
+  font-family: FontZaBody;
+  src: url(Font/Roboto-Regular);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: FontZaBody;
+  background-color: var(--body);
+  padding-top: 65px;
+}
+
+.Menilogo {
+  margin-top: -34px;
+}
+
+.PozadinaForma {
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(../Slike/Pozadine/Pozadina-Forma.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.SadrzajForme {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.FormaKontejner {
+  background: var(--Zaposlen-back);
+  width: 100%;
+  max-width: 600px;
+  height: 730px;
+  padding: 30px;
+  border: 10px solid var(--Zaposlen-border);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.form-control {
+  width: 50%;
+  height: 30px;
+}
+
+.SlikaLevo,
+.SlikaDesno {
+  position: absolute;
+  bottom: 0;
+  width: 600px; 
+  height: auto;
+  z-index: 0;
+}
+
+.SlikaLevo {
+  left: 0;
+}
+
+.SlikaDesno {
+  right: 0;
+}
+
+@media screen and (max-width: 970px) {
+  .SlikaLevo,
+  .SlikaDesno {
+    width: 200px;
+    z-index: 1;
+  }
+
+  .FormaKontejner {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+

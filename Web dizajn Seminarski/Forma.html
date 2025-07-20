@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Manga, Programer, Web Dizajner, Pisac Članova, Pocetna Strana">
+  <meta name="description" content="FenCo je kreativni tim koji se bavi mangom, dizajnom i razvojem. Upoznajte naš tim i projekte.">
+  <meta name="author" content="FenCo">
+
+  <meta property="og:title" content="FenCo - Kreativni Web Tim">
+  <meta property="og:description" content="Pridruži se našem timu dizajnera, programera i manga entuzijasta.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://FenCo.com">
+  <meta property="og:image" content="Slike/Sprites/ImeSajta.png">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FenCo - Forma</title>
+
+  <link rel="shortcut icon" type="FenCo" href="Slike/Sprites/logo.png">
+
+
+  <link rel="stylesheet" href="Framevorkovi/W3-1.css">
+  <link rel="stylesheet" href="Framevorkovi/w3-2.css">
+
+  <link rel="stylesheet" href="CSS/Forma.css">
+  <link rel="stylesheet" href="CSS/Meni.css">
+  <script src="Java/java.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <section class="GlavniMeni">
+    <label for="meni-dugme" class="btn meni-dugme">
+      <span class="linija"></span>
+      <span class="linija"></span>
+      <span class="linija"></span>
+    </label>
+    <div class="ImeSajta">
+      <a href="#">FenCo</a>
+      <img class="Menilogo" src="Slike/Sprites/logo.png" alt="Logo Sajta">
+    </div>
+    <input type="radio" name="slide" id="meni-dugme">
+    <input type="radio" name="slide" id="smanji-dugme">
+    <ul class="nav-linkovi">
+    <label for="smanji-dugme" class="btn smanji-dugme">X</label>
+    <li><a href="Pocetna.html">Pocetna</a></li>
+    </li>
+    <li><a href="o-nama.html">O nama</a></li>
+    <li>
+    <li>
+      <a class="NaRacunaru">Popularno&#x25BE;</a>
+      <input type="checkbox" id="PokaziDropBox">
+      <label for="PokaziDropBox" class="NaTelefonu">Popularno&#x25BE;</label>
+      <ul class="drop-meni">
+        <li><a href="#">Drop 1</a></li>
+        <li><a href="#">Drop 2</a></li>
+        <li><a href="#">Drop 3</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="Manga.html" class="NaRacunaru">Manga&#x25BE;</a>
+      <input type="checkbox" id="PokaziMegaMani">
+      <label for="PokaziMegaMani" class="NaTelefonu">Manga&#x25BE;</label>
+      <div class="MegaMeni">
+        <div class="sadrzaj">
+          <div class="red">
+            <img src="Slike/Sprites/slika-meni.png" alt="slika-meni">
+          </div>
+          <div class="red">
+            <header>Drama</header>
+            <ul class="mega-linkovi">
+              <li><a href="Manga html/clannad.html">Clannad</a></li>
+              <li><a href="Manga html/angel-beats.html">Angel Beats</a></li>
+              <li><a href="Manga html/gosick.html">GoSick</a></li>
+            </ul>
+          </div>
+
+          <div class="red">
+            <header>Misterija</header>
+            <ul class="mega-linkovi">
+              <li><a href="Manga html/death-note.html">Death Note</a></li>
+              <li><a href="Manga html/dandadan.html">DanDaDan</a></li>
+              <li><a href="Manga html/princessprincipal.html">Princess Principal</a></li>
+            </ul>
+          </div>
+
+          <div class="red">
+            <header>Akcija</header>
+            <ul class="mega-linkovi">
+              <li><a href="Manga html/zom100.html">Zomb 100</a></li>
+              <li><a href="Manga html/darkerthanblack.html">Darker Than Black</a></li>
+              <li><a href="Manga html/psycho-pass.html">Psycho-Pass</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li><a href="Forma.html">Forma</a></li>
+    <li>
+      <button id="Tema-dugme" class="Tema-dugme">
+        <img src="Slike/Sprites/tamni.png" alt="Mesec">
+        <img src="Slike/Sprites/svetli.png" alt="Sunce">
+      </button>
+    </li>
+  </ul>
+  </section>
+</nav>
+
+<section class="PozadinaForma">
+  <div class="SadrzajForme">
+    <div class="FormaKontejner">
+      <!-- Koristi se Framework za css iz https://www.w3schools.com/default.asp web sajta za pravljenje ove forme koje se nalaze u Framevorkovi folderu -->
+      <h2 class="w3-center">Kontakt Forma</h2>
+      <form id="kontF" onsubmit="return proveriFormu()">
+
+        <div class="w3-margin-bottom">
+          <label for="ime" class="w3-text-black"><b>*Ime:</b></label>
+          <input type="text" id="ime" name="ime" class="w3-input w3-border w3-round" placeholder="Unesite ime">
+        </div>
+
+        <div class="w3-margin-bottom">
+            <label for="prezime" class="w3-text-black"><b>*Prezime:</b></label>
+            <input type="text" id="prezime" name="prezime" class="w3-input w3-border w3-round" placeholder="Unesite prezime">
+        </div>
+
+        <div class="w3-margin-bottom">
+            <label for="email" class="w3-text-black"><b>*Email:</b></label>
+            <input type="email" id="email" name="email" class="w3-input w3-border w3-round" placeholder="Unesite email">
+        </div>
+
+        <div class="w3-margin-bottom">
+            <label for="date" class="w3-text-black"><b>*Datum Rodjenja:</b></label>
+            <input type="date" id="datum" name="datum" class="w3-input w3-border w3-round">
+        </div>
+
+        <div class="w3-margin-bottom">
+          <label for="poruka" class="w3-text-black"><b>*Poruka:</b></label>
+          <textarea id="poruka" name="poruka" class="w3-input w3-border w3-round" rows="6" placeholder="Unesite poruku"></textarea>
+        </div>
+
+        <div class="w3-center">
+            <button type="submit" class="w3-button w3-blue w3-round">Posalji</button>
+        </div>
+
+        <div class="w3-margin-top">
+            <p id="greska" class="w3-text-red w3-center"></p>
+        </div>
+      </form>
+    </div>
+
+    <div class="DonjeSlike">
+      <img class="SlikaLevo" src="Slike/Sprites/Sprite-0001.png" alt="Leva slika">
+      <img class="SlikaDesno" src="Slike/Sprites/sprite-0002.png" alt="Desna slika">
+    </div>
+  </div>
+</section>
+
+<footer class="footer" role="contentinfo">
+  <p>&copy; 2025 FenCo. Sva prava zadržana.</p>
+</footer>
+
+</body>
+</html>

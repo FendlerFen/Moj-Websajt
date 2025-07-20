@@ -1,0 +1,131 @@
+USE [VP2025FakultetV2]
+GO
+
+CREATE PROCEDURE [DajKorisnikaPoKorisnickomImenuISifri]
+( @KorisnickoIme nvarchar(20),
+@Sifra nvarchar(30)
+)
+AS
+select * from Korisnik where Korisnik.KorisnickoIme=@KorisnickoIme and Korisnik.Sifra=@Sifra
+GO
+
+
+CREATE PROCEDURE [DajSvaZvanja]
+AS
+select * from Zvanje
+GO
+
+CREATE PROCEDURE [DajZvanjePoNazivu]
+( @NazivZvanja nvarchar(40)
+)
+AS
+select * from Zvanje where Zvanje.Naziv = @NazivZvanja
+GO
+
+
+CREATE PROCEDURE [DajZvanjePoSifri]
+(@SifraZvanja nvarchar(3)
+)
+AS
+select * from Zvanje where Zvanje.Sifra = @SifraZvanja
+GO
+
+CREATE PROCEDURE [DajBrojNastavnikaPremaSifriZvanja]
+(@SifraZvanja nvarchar(3)
+)
+AS
+select count(*) as ukupno from Nastavnik where Nastavnik.IdZvanja = @SifraZvanja
+GO
+
+
+
+CREATE PROCEDURE [DodajNovoZvanje]
+( 
+@Sifra nvarchar(3),
+@Naziv nvarchar(40)
+)
+AS
+BEGIN
+Insert into Zvanje(Sifra, Naziv) values (@Sifra, @Naziv)
+END
+GO
+
+CREATE PROCEDURE [ObrisiZvanje](
+@Sifra nvarchar(3))
+AS
+BEGIN
+Delete from Zvanje where Sifra=@Sifra
+END
+GO
+
+CREATE PROCEDURE [IzmeniZvanje](
+@StaraSifra nvarchar(3),
+@Sifra nvarchar(3),
+@Naziv nvarchar(40)
+)
+AS
+BEGIN
+Update Zvanje set Sifra=@Sifra, Naziv=@Naziv where Sifra=@StaraSifra
+END
+GO
+
+CREATE PROCEDURE [DajSveNastavnike]
+AS
+Select * from Nastavnik
+GO
+
+CREATE PROCEDURE [DajSveNastavnikeSaJoin] 
+AS
+Select Nastavnik.JMBG, Nastavnik.Prezime, Nastavnik.Ime, Zvanje.Naziv as NazivZvanja from Nastavnik inner join Zvanje on Nastavnik.IdZvanja = Zvanje.Sifra
+GO
+
+CREATE PROCEDURE [DajNastavnikaPoPrezimenu] @NastavnikPrezime nvarchar(30)
+AS
+select NASTAVNIK.JMBG, NASTAVNIK.Ime, NASTAVNIK.Prezime, ZVANJE.Naziv as NazivZvanja from NASTAVNIK inner join ZVANJE on ZVANJE.Sifra = NASTAVNIK.IDZvanja where NASTAVNIK.Prezime = @NastavnikPrezime
+GO
+
+CREATE PROCEDURE [DajNastavnikaPoJMBG] @NastavnikJMBG char(13)
+AS
+select NASTAVNIK.JMBG, NASTAVNIK.Ime, NASTAVNIK.Prezime, ZVANJE.Naziv as NazivZvanja from NASTAVNIK inner join ZVANJE on ZVANJE.Sifra = NASTAVNIK.IDZvanja where NASTAVNIK.JMBG = @NastavnikJMBG
+GO
+
+CREATE PROCEDURE [DodajNovogNastavnika]( 
+@JMBG char(13),
+@Prezime nvarchar(40),
+@Ime nvarchar(40),
+@IDZvanja nvarchar(3))
+AS
+BEGIN
+Insert into Nastavnik(JMBG, Prezime, Ime, IDZvanja) values (@JMBG, @Prezime, @Ime, @IDZvanja)
+END
+GO
+
+CREATE PROCEDURE [ObrisiNastavnika](
+@JMBG int)
+AS
+BEGIN
+Delete from Nastavnik where JMBG=@JMBG
+END
+GO
+
+CREATE PROCEDURE [IzmeniNastavnika](
+@StariJMBG char(13),
+@JMBG char(13),
+@Prezime nvarchar(40),
+@Ime nvarchar(40),
+@IDZvanja nvarchar(3))
+AS
+BEGIN
+Update Nastavnik set JMBG=@JMBG, Prezime=@Prezime, Ime=@Ime, IDZvanja=@IDZvanja where JMBG=@StariJMBG
+END
+GO
+
+
+CREATE PROCEDURE [DajSveNastavnikeSaJoinSifromZvanja] 
+AS
+Select Nastavnik.JMBG, Nastavnik.Prezime, Nastavnik.Ime, Zvanje.Naziv as NazivZvanja, Zvanje.Sifra as SifraZvanja  from Nastavnik inner join Zvanje on Nastavnik.IdZvanja = Zvanje.Sifra
+GO
+
+
+
+
